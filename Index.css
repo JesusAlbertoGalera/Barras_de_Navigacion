@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Menu de Navigacion 1*/
+
+body .MP {
+    background: #6ea19f;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+
+body .MP .Logo {
+    display: flex;
+    height: 110px;
+    width: 120px;
+    padding: 0 ;
+}
+
+body .MP .Logo img {
+    vertical-align: top;
+    width: 120px;
+    float: left;
+    padding: 0;
+}
+
+body .MP .MI {
+    align-items: center;
+    display: flex;
+}
+
+body .MP .MI .Items {
+    float: left;
+    display: flex;
+    align-items: center;
+    margin: 0 380px 0 0;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+body .MP .MI .Items p {
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+
+body .MP .MI .Boton {
+    background: #000708;
+    border: 2px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+    margin: 0 2px;
+
+}
+
+/*Menu de Navigacion 2*/
+body .MenuPrincipal {
+    border: 2px solid #ffffff;
+    background: #6a966c;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+body .MenuPrincipal .logo {
+    border-radius: 5px;
+    height: 52px;
+    width: 250px;
+}
+
+body .MenuPrincipal .logo img {
+    vertical-align: top;
+    width: 50px;
+    align-items: center;
+    display: flex;
+}
+
+body .MenuPrincipal .MenuItems {
+    align-items: center;
+    display: flex;
+}
+
+body .MenuPrincipal .MenuItems .Items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 54px 0 0;
+    width: 400px;
+    margin-left: 24px;
+}
+
+body .MenuPrincipal .MenuItems .Items p {
+    color: #133105;
+}
+
+body .MenuPrincipal .MenuItems .Boton {
+    background: #1a7703;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+/*Menu de Navigacion 3*/
+
+body .MP3 {
+padding: 10px 0;
+
+}
+
+body .MP3 .Borde {
+    background: #4e4e4e;
+
+    padding: 5px 40px;
+}
+
+
+body .MP3 .Borde .Icon1{
+    flex: 300%;
+}
+
+body .MP3 .Borde .Icon1 img{
+    width: 20px;
+position: absolute;
+left: 83.2%;
+right: 0%;
+top: 36%;
+bottom: 9.39%;
+}
+
+body .MP3 .Borde .Icon2{
+    flex: 300%;
+}
+
+body .MP3 .Borde .Icon2 img{
+    width: 25px;
+position: absolute;
+left: 85%;
+right: 0%;
+top: 35.5%;
+bottom: 9.39%;
+align-items: center;
+}
+
+body .MP3 .Borde .Icon3{
+    flex: 300%;
+}
+
+body .MP3 .Borde .Icon3 img{
+    width: 17px;
+position: absolute;
+left: 87.1%;
+right: 0%;
+top: 36%;
+bottom: 9.39%;
+align-items: center;
+}
+
+body .MP3 .Borde > p{
+    color: #ffffff;
+}
+
+body .MP3 .logotipo{
+    border-radius: 5px;
+    height: 52px;
+    width: 250px;
+    margin: 2px 0 0;
+    margin-left: 40px;
+}
+
+body .MP3 .logotipo img{
+    vertical-align: top;
+    width: 100px;
+    float: left;
+    padding: 0;
+
+}
+
+body .MP3 .mi{
+    align-items: center;
+    display: flex;
+}
+
+body .MP3 .mi .items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: -40px 54px 0 0;
+    width: 400px;
+    margin-left: 480px;
+}
+
+body .MP3 .mi .items p {
+    color: #000000;
+    
+}
+
+body .MP3 .mi .button {
+    background: #fbfffa;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: -40px 0 0 0;
+}
+
+body .MP3 .mi .button > img{
+    width: 20px;
+}
